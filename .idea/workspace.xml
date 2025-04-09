@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58335a27-fae0-4a73-9479-14acf9e786ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/MathController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/ExcpetionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/UnsupportedMathOperationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/MathController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
