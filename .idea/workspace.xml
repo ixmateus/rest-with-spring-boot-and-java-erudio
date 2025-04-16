@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58335a27-fae0-4a73-9479-14acf9e786ef" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/services/PersonServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/handler/CustomEntityResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
         <option value="Record" />
         <option value="Exception" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -65,6 +69,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.ixmateus.services" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.ixmateus" />
     </key>
@@ -75,7 +82,7 @@
       <module name="rest-with-spring-boot-and-java-erudio" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.ixmateus.*" />
+          <option name="PATTERN" value="br.com.ixmateus.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

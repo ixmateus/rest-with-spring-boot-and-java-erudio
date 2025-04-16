@@ -1,8 +1,9 @@
 package br.com.ixmateus.controllers;
 
-import br.com.ixmateus.PersonServices;
+import br.com.ixmateus.services.PersonServices;
 import br.com.ixmateus.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
@@ -21,7 +22,7 @@ import java.util.List;
 
             // GET - Busca uma pessoa por ID
             @GetMapping("/{id}")
-            public Person findById(@PathVariable String id) {
+            public Person findById(@PathVariable Long id) {
                 return service.findById(id);
             }
 
@@ -39,9 +40,9 @@ import java.util.List;
 
            // DELETE - Remove uma pessoa pelo ID
            @DeleteMapping ("/{id}")
-            public void delete(@PathVariable String id){
-                service.delete(id);
+           public ResponseEntity<Void> delete(@PathVariable Long id) {
+               service.delete(id);
+               return ResponseEntity.noContent().build(); // HTTP 204
            }
 
-
-        }
+    }
