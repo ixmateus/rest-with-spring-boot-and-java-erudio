@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58335a27-fae0-4a73-9479-14acf9e786ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/repository/PersonRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/services/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/UnsupportedMathOperationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/handler/CustomEntityResponseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
