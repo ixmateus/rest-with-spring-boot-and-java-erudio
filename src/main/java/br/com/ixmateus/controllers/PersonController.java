@@ -1,7 +1,7 @@
 package br.com.ixmateus.controllers;
 
+import br.com.ixmateus.data.dto.PersonDTO;
 import br.com.ixmateus.services.PersonServices;
-import br.com.ixmateus.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,26 +16,26 @@ import java.util.List;
 
             // GET - Lista todas as pessoas
             @GetMapping
-            public List<Person> findAll() {
+            public List<PersonDTO> findAll() {
                 return service.findAll();
             }
 
             // GET - Busca uma pessoa por ID
             @GetMapping("/{id}")
-            public Person findById(@PathVariable Long id) {
+            public PersonDTO findById(@PathVariable Long id) {
                 return service.findById(id);
             }
 
             // POST - Cria uma nova pessoa
            @PostMapping
-            public Person create(@RequestBody Person person){
-                return service.create(person);
+            public PersonDTO create(@RequestBody PersonDTO PersonDTO){
+                return service.create(PersonDTO);
            }
 
             // PUT - Atualiza uma pessoa existente
             @PutMapping
-            public Person update(@RequestBody Person person){
-                return service.update(person);
+            public PersonDTO update(@RequestBody PersonDTO PersonDTO){
+                return service.update(PersonDTO);
            }
 
            // DELETE - Remove uma pessoa pelo ID
