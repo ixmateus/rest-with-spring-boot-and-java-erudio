@@ -1,7 +1,9 @@
 package br.com.ixmateus.controllers;
 
-import br.com.ixmateus.data.dto.PersonDTO;
+import br.com.ixmateus.data.dto.v1.PersonDTO;
+import br.com.ixmateus.data.dto.v2.PersonDTOV2;
 import br.com.ixmateus.services.PersonServices;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -30,7 +32,14 @@ import java.util.List;
            @PostMapping
             public PersonDTO create(@RequestBody PersonDTO PersonDTO){
                 return service.create(PersonDTO);
-           }
+            }
+
+            // Atualização para V2!
+           @PostMapping ("/v2")
+            public PersonDTOV2 createV2(@RequestBody @Valid PersonDTOV2 personDTO){
+            return service.createV2(personDTO);
+            }
+
 
             // PUT - Atualiza uma pessoa existente
             @PutMapping

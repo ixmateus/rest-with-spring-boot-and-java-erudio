@@ -1,9 +1,12 @@
 package br.com.ixmateus.services;
 
-import br.com.ixmateus.data.dto.PersonDTO;
+import br.com.ixmateus.data.dto.v1.PersonDTO;
+import br.com.ixmateus.data.dto.v2.PersonDTOV2;
 import br.com.ixmateus.exception.ResourceNotFoundException;
 import static br.com.ixmateus.mapper.ObjectMapper.parseListObjects;
 import static br.com.ixmateus.mapper.ObjectMapper.parseObject;
+
+import br.com.ixmateus.mapper.custom.PersonMapper;
 import br.com.ixmateus.model.Person;
 import br.com.ixmateus.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,6 +21,9 @@ public class PersonServices {
 
     @Autowired
     PersonRepository repository;
+
+    @Autowired
+    PersonMapper converter;
 
     public List <PersonDTO> findAll () {
 
@@ -39,6 +45,15 @@ public class PersonServices {
         var entity = parseObject(person, Person.class);
 
         return parseObject(repository.save(entity), PersonDTO.class);
+    }
+
+    // Atualização para V2!
+    public PersonDTOV2 createV2 (PersonDTOV2 person) {
+
+        logger.info("Creating one Person V2!");
+        var entity = converter.convertDTOToEntity(person);
+
+        return converter.convertEntityToDTO(repository.save(entity));
     }
     public PersonDTO update(PersonDTO person) {
         logger.info("Updating one Person");

@@ -1,6 +1,6 @@
 package br.com.ixmateus.unitetests.mapper.mocks;
 
-import br.com.ixmateus.data.dto.PersonDTO;
+import br.com.ixmateus.data.dto.v1.PersonDTO;
 import br.com.ixmateus.model.Person;
 
 import java.util.ArrayList;
