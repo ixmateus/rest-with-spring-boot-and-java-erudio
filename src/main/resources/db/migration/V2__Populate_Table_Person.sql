@@ -1,0 +1,18 @@
+INSERT INTO `person` (`id`, `address`, `first_name`, `gender`, `last_name`) VALUES
+	(1, 'São Paulo - Brasil 2000', 'Ayrton', 'Male', 'Senna'),
+	(4, 'São Paulo - Brasil', 'Mateus', 'Male', 'Monteiro'),
+	(5, 'Japan', 'Boku', 'Male', 'No Hero'),
+	(6, 'Tokyo - JP', 'Mob', 'Male', 'Pyscho'),
+	(8, '123 Main St', 'John', 'Male', 'Doe'),
+	(9, '123 Main St', 'John', 'Male', 'Doe'),
+	(10, '123 Main St', 'John', 'Male', 'Doe'),
+	(11, 'Tokyo - JP', 'Test', 'Male', 'test1'),
+	(12, 'Tokyo - JP', 'Test', 'Male', 'test1'),
+	(13, 'Tokyo - JP', 'Test', 'Male', 'test2'),
+	(14, 'Tokyo - JP', 'Test', 'Male', 'test3'),
+	(15, 'Rua das Flores', 'Mateus', 'Male', 'Monteiro'),
+	(16, 'Rua das Flores', 'Mateus', 'Male', 'Monteiro'),
+	(17, 'Rua Teste', 'João', 'Male', 'Silva'),
+	(18, 'Rua Teste', 'João', 'Male', 'Silva'),
+	(19, 'Rua Teste 01', 'test', 'null', 'testeteste'),
+	(20, 'Rua Teste 01', 'test', 'male', 'testeteste');

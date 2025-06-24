@@ -11,6 +11,7 @@ public class PersonMapper {
 
     public PersonDTOV2 convertEntityToDTO(Person person){
         PersonDTOV2 dto = new PersonDTOV2();
+        dto.setId(person.getId());
         dto.setFirstName(person.getFirstName());
         dto.setLastName(person.getLastName());
         dto.setBirthDay(new Date());

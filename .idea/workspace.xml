@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58335a27-fae0-4a73-9479-14acf9e786ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/data/dto/v2/PersonDTOV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/exception/handler/ValidationExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/mapper/custom/PersonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__Create_Table_Person.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V2__Populate_Table_Person.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/data/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/data/dto/v1/PersonDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/services/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/services/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ixmateus/unitetests/mapper/mocks/MockPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ixmateus/unitetests/mapper/mocks/MockPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/ixmateus/unitetests/mapper/mocks/ObjectMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/ixmateus/unitetests/mapper/mocks/ObjectMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/TestLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/controllers/TestLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/data/dto/v2/PersonDTOV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/data/dto/v2/PersonDTOV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/mapper/ObjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/mapper/ObjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/mapper/custom/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/ixmateus/mapper/custom/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ixmateus/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ixmateus/controllers/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ixmateus/data/dto/PersonDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ixmateus/controllers/TestLogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ixmateus/controllers/TestLogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ixmateus/data/dto/v2/PersonDTOV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ixmateus/data/dto/v2/PersonDTOV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/ixmateus/mapper/ObjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ixmateus/mapper/ObjectMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/ixmateus/services/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/ixmateus/services/PersonServices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/ixmateus/unitetests/mapper/mocks/MockPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/ixmateus/unitetests/mapper/mocks/MockPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/ixmateus/unitetests/mapper/mocks/ObjectMapperTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/ixmateus/unitetests/mapper/mocks/ObjectMapperTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projects/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/ixmateus/data/dto/v2",
+    "last_opened_file_path": "D:/Projects/rest-with-spring-boot-and-java-erudio/src/main/resources/db.migration",
     "settings.editor.selected.configurable": "org.intellij.sdk.settings.AppSettingsConfigurable",
     "show.migrate.to.gradle.popup": "false"
   }
@@ -82,7 +83,11 @@
       <recent name="br.com.ixmateus.services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\rest-with-spring-boot-and-java-erudio\src\main\resources\db.migration" />
       <recent name="D:\Projects\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\ixmateus\data\dto\v2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\rest-with-spring-boot-and-java-erudio\src\main\resources\db\migration" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="br.com.ixmateus.services" />

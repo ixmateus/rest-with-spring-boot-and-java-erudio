@@ -3,7 +3,6 @@ package br.com.ixmateus.data.dto.v2;
 import jakarta.validation.constraints.NotNull;
 
 import java.io.Serializable;
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.Objects;
 
