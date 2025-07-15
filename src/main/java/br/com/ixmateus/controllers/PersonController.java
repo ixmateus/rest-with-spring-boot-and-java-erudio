@@ -7,6 +7,8 @@ import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.Date;
 import java.util.List;
 
     @RestController
@@ -25,7 +27,13 @@ import java.util.List;
             // GET - Busca uma pessoa por ID
             @GetMapping("/{id}")
             public PersonDTO findById(@PathVariable Long id) {
-                return service.findById(id);
+                var person = service.findById(id);
+                person.setBirthDay(new Date());
+                // person.setPhoneNumber("+55 (34) 98765-4321");
+                person.setPhoneNumber("");
+                person.setLastName(null);
+                person.setSensitiveData("Foo Bar");
+                return person;
             }
 
             // POST - Cria uma nova pessoa
